@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.header img {
+  height: 80px;
+}
+
+.header h2 {
+  margin: 10px 0 0;
+  color: #b64500;
+}
+
+.header p {
+  margin: 5px;
+  font-size: 14px;
+}
+
+.form-section {
+  text-align: center;
+  padding: 30px;
+}
+
+input[type="text"], select {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result-section {
+  background-color: white;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.result-section h3 {
+  text-align: center;
+}
+
+.result-table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.result-table td {
+  padding: 8px;
+}
+
+.course-links {
+  background-color: #e9f9e8;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.course-links a {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+/* Styles for the marksheet images */
+.marksheet-images {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.marksheet-img {
+  width: 100%;
+  max-width: 650px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+}
